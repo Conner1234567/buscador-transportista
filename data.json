@@ -1,0 +1,23 @@
+[
+    {
+        "Transportista": "Juan Pérez",
+        "Carga_Lugar": "Madrid",
+        "Carga_Pais": "España",
+        "Descarga_Lugar": "Berlín",
+        "Descarga_Pais": "Alemania"
+    },
+    {
+        "Transportista": "María López",
+        "Carga_Lugar": "Buenos Aires",
+        "Carga_Pais": "Argentina",
+        "Descarga_Lugar": "Santiago",
+        "Descarga_Pais": "Chile"
+    },
+    {
+        "Transportista": "Carlos Ruiz",
+        "Carga_Lugar": "México D.F.",
+        "Carga_Pais": "México",
+        "Descarga_Lugar": "Lima",
+        "Descarga_Pais": "Perú"
+    }
+]

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Transportistas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Buscar Transportistas</h1>
+        <form id="formBusqueda">
+            <label for="carga_lugar">Lugar de Carga:</label>
+            <input type="text" id="carga_lugar" name="carga_lugar" required><br><br>
+
+            <label for="carga_pais">País de Carga:</label>
+            <input type="text" id="carga_pais" name="carga_pais" required><br><br>
+
+            <label for="descarga_lugar">Lugar de Descarga:</label>
+            <input type="text" id="descarga_lugar" name="descarga_lugar" required><br><br>
+
+            <label for="descarga_pais">País de Descarga:</label>
+            <input type="text" id="descarga_pais" name="descarga_pais" required><br><br>
+
+            <button type="submit">Buscar</button>
+        </form>
+
+        <div id="resultados">
+            <!-- Los resultados aparecerán aquí -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
